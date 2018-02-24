@@ -1,12 +1,13 @@
-##Introduction
+## Introduction
+
 Atlassian plugin which provides a possibility to use your favorite programming language to script and interact with Atlassian product server realtime. 
-###Supported products
+### Supported products
 
 * Jira 4.3
 * Confluence 3.5
 * Bamboo 3.2.2
 
-###Working modes
+### Working modes
 
 * Web-executor interface - allows to execute script input from admin interface, no continuous working session support and no
 working context preservation between invocations.
@@ -15,7 +16,7 @@ script code in the scripting session context - state is preserved between invoca
 * The are sample console clients available (Ruby, Groovy) which work similar to interactive language shells (irb, groovysh).
 * Sample JIRA configuration scripts.
 
-###Scripting languages supported
+### Scripting languages supported
 
 * JavaScript (Rhino) shipped with Oracle JDK - default
 * Groovy 1.8.0 - separate
@@ -27,7 +28,7 @@ The target is to come as close to Firebug / IRB / Groovysh as possible :)
 
 You can see some screenshots in action [here](http://leonardinius.blogspot.com/2011/03/release-announcement-jira-rest-cli-05.html).
 
-##Alternatives
+## Alternatives
 * [Python CLI for JIRA](https://plugins.atlassian.com/plugin/details/16346) - basically cli interface to JIRA SOAP interface;
 * [Jira Scripting Suite](https://plugins.atlassian.com/plugin/details/16346) - provides a convenient way to put custom conditions,
 validators and post-functions into workflow in a form of
@@ -43,7 +44,7 @@ the same approach to automate certain operations (e.g. configuration deployment)
 
 The  atlassian-rest-cli tool at the moment makes a step little bit further - it allows to use the same REST cli infrastructure with the Atlassian product line (see supported products above). 
 
-##How could I use it?
+## How could I use it?
 When working with it I have several use-cases in mind:
 
 * Use it as console-tool to script and automate certain configuration changes (local development; staging etc development deployment)
@@ -51,7 +52,7 @@ When working with it I have several use-cases in mind:
 
 I would really appreciate if you will think out other use-cases and will report them back to me. So do it :)
 
-##How to start?
+## How to start?
 *  Build project
 
         git clone git@github.com:leonardinius/atlassian-rest-cli.git
